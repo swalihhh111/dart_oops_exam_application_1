@@ -22,7 +22,7 @@
 //     print("woof");
 //   }
 // }
-//............................................
+//.................................................
 // void main() {
 //   Circle c1 = Circle(5, "red");
 //   c1.displayColor();
@@ -69,32 +69,44 @@
 //     _width = newWidth;
 //   }
 // }
-//................................................
-void main() {
-  Car car1 = Car();
-  car1.logMessage('bmw');
-  car1.startEngine();
-}
+// //................................................
+// void main() {
+//   Car car1 = Car();
+//   car1.logMessage('bmw');
+//   car1.startEngine();
+// }
 
-mixin Logger {
-  void logMessage(String message) {
-    print(message);
-  }
-}
+// mixin Logger {
+//   void logMessage(String message) {
+//     print(message);
+//   }
+// }
 
-abstract class Vehicle {
-  void startEngine();
-  void stopEngine();
-}
+// abstract class Vehicle {
+//   void startEngine();
+//   void stopEngine();
+// }
 
-class Car extends Vehicle with Logger {
-  @override
-  void startEngine() {
-    print("car is start");
-  }
+// class Car extends Vehicle with Logger {
+//   @override
+//   void startEngine() {
+//     print("car is start");
+//   }
 
-  @override
-  void stopEngine() {
-    print("car is stop");
-  }
-}
+//   @override
+//   void stopEngine() {
+//     print("car is stop");
+//   }
+// }
+//.................................................
+// void printSquares(int n) {
+//   for (int i = 1; i <= n; i++) {
+//     print(i * i);
+//   }
+// }
+
+// void main() {
+//   printSquares(5);
+// }
+
+//....................................................
